@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compra de adesivos</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@100&family=Mukta:wght@200&family=Smooch+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Formulário para compra de pacotes de adesivos</h1>
+
+        </header>
+        <div class="container">
+            <hr class="wave">
+        </div>   
+        
+        <form class="container_formulario">
+            <div class="container_checkbox">
+                <p>Quais adesivos gostaria de comprar?</p>
+                <section>
+                    <input type="checkbox" id="react" name="react">
+                    <label for="react">React</label>
+                </section>
+                <section>
+                    <input type="checkbox" id="vue" name="vue">
+                    <label for="vue">Vue</label>
+                </section>
+                <section>
+                    <input type="checkbox" id="angular" name="angular">
+                    <label for="angular">Angular</label>
+                </section>
+            </div>
+
+            <p>Quantos adesivos de cada?*</p>
+            <input class="texto" type="number" id="quantidade" required>
+
+            <p>Observações:</p>
+            <textarea class="texto"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
